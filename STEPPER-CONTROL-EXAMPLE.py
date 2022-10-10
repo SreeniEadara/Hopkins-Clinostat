@@ -21,7 +21,7 @@ GPIO.setup(Enable_pin,GPIO.OUT) # set enable pin as output #####################
 GPIO.output(Enable_pin,GPIO.LOW) # pull enable to low to enable motor
 
 ############
-# Server Motor Control
+# Stepper Motor Control
 ############
 
 for i in range(10):
